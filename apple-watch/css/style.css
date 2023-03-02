@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 1100px;
+    /* background-color: turquoise; */
+    background-image: url("../images/apple_series-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 250px;
+    height: 70px;
+    /* background-color: tomato; */
+    margin-top: 20px;
+    float: left;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+}
+
+#logo-icon {
+    font-size: 35px;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#logo-icon i {
+    margin-right: 10px;
+}
+
+.logo :hover {
+    color: #9933cc;
+    transition: all .5s;
+}
+
+.header-r {
+    width: 400px;
+    height: 80px;
+    /* background-color: thistle; */
+    float: right;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+.box {
+    /* display: inline-block; */
+    float: left;
+    margin-top: 20px;
+}
+
+#search {
+    width: 200px;
+    height: 30px;
+    background-color: #333;
+    border: none;
+    border-radius: 20px;
+    padding-left: 10px;
+    float: left;
+    color: #888;
+}
+
+.fa-search {
+    margin: 7px 0 0 -30px;
+    color: #888;
+    cursor: pointer;
+    float: left;
+}
+
+.fa-search:hover {
+    color: #fff;
+}
+
+#btn-buy {
+    width: 80px;
+    height: 30px;
+    background-color: #fff;
+    color: #9933cc;
+    border: none;
+    font-weight: bold;
+    float: left;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 0 20px;
+}
+
+#btn-buy:hover {
+    background-color: #9933cc;
+    color: #fff;
+    transition: .5s;
+}
+
+.fa-bars {
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+}
+
+.fa-bars:hover {
+    color: #9933cc;
+    transition: .5s;
+}
+
+.text-banner {
+    width: 1000px;
+    height: 300px;
+    padding: 20px 20px 20px 40px;
+    margin-top: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+.text-h {
+    font-size: 110px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.text-dis {
+    font-size: 24px;
+    font-family: Tahoma, sans-serif;
+    color: #999;
+    line-height: 1;
+}
+
+#myvideo {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#content {
+    width: 100%;
+    height: 540px;
+    /* background-color: aqua; */
+    background: linear-gradient(110deg, #090772, #0FCDCE);
+}
+
+#content-box {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.content-l {
+    width: 50%;
+    height: 540px;
+    float: left;
+    /* background-color: brown; */
+}
+
+.text-conh {
+    font-family: Tahoma, sans-serif;
+    font-size: 48px;
+    color: #fff;
+    padding: 150px 0 0 60px;
+    line-height: 50px;
+}
+
+.text-content {
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    color: white;
+    line-height: 20px;
+    padding: 20px 0 30px 60px;
+}
+
+.content-r {
+    width: 50%;
+    height: 540px;
+    float: left;
+    /* background-color: chartreuse; */
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    background-color: #0f0;
+    color: #090772;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #090772;
+    color: #0f0;
+}
+
+#product {
+    width: 100%;
+    /* transform: scale(0.8, 0.8); */
+    transform: rotate(0deg);
+    margin-top: 40px;
+}
+
+#product:hover {
+    /* transform: scale(1, 1); */
+    transition: .5s ease-in-out;
+    transform: rotate(50deg);
+}
+
+
+/* function */
+
+#function {
+    width: 100%;
+    height: 550px;
+    background-color: #242730;
+}
+
+#fn-box {
+    width: 1024px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.content {
+    width: 240px;
+    height: 550px;
+    float: left;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 42px;
+    text-align: center;
+    color: #0f0;
+    margin-top: 100px;
+}
+
+.fn-head {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.fn-content {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    line-height: 14px;
+    padding: 20px 20px 0px 20px;
+}
+
+.content:hover {
+    background-color: #666;
+    box-shadow: 1px 2px 34px -1px rgba(0, 0, 0, 0.1);
+    transition: all ease .3s;
+}
+
+.content:hover p {
+    color: white;
+}
+
+#another {
+    width: 100%;
+    height: 470px;
+    background-color: white;
+}
+
+#an-main {
+    width: 1024px;
+    height: 470px;
+    margin: 0 auto;
+    padding: 70px 0 0 0;
+}
+
+.an-box {
+    width: 320px;
+    height: 360px;
+    float: left;
+    cursor: pointer;
+}
+
+.pd1,
+.pd2,
+.pd3 {
+    width: 290px;
+    height: 150px;
+    margin: 30px auto 0 auto;
+    /* background-color: #000; */
+    /* background: url("../images/applewatch1.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid gray;
+    transform: scale(1, 1);
+    overflow: hidden;
+}
+
+.an-box:hover {
+    box-shadow: 0px 0px 50px -5px rgba(0, 0, 0, 0.5);
+    transition: all ease .3s;
+}
+
+.an-box:hover img {
+    transform: scale(1.5, 1.5);
+    transition: all ease .3s;
+    filter: none;
+}
+
+.pd1 img,
+.pd2 img,
+.pd3 img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(60%);
+}
+
+.an-text {
+    width: 290px;
+    height: 100px;
+    margin: 20px auto 0 auto;
+    color: #666;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.an-title {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 15px;
+}
+
+.an-box .button {
+    margin: 10px 0 0 0;
+}
+
+footer {
+    width: 100%;
+    height: 140px;
+    background-color: #242830;
+}
+
+.footer-main {
+    width: 1024px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.ft-box {
+    width: 50%;
+    height: 100px;
+    float: left;
+    padding: 20px;
+    color: white;
+}
+
+.ft-head {
+    font-size: 24px;
+}
+
+.ft-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #888;
+    line-height: 16px;
+    margin-top: 10px;
+}
+
+.emailbx {
+    margin-top: 10px;
+    position: relative;
+}
+
+.emailbx input {
+    width: 310px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.emailbx input::placeholder {
+    color: #888;
+}
+
+.send-btn {
+    height: 35px;
+    width: 60px;
+    background-color: #9933cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: -60px;
+    font-size: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.send-btn:hover {
+    background-color: #000;
+    color: #9933cc;
+}
+
+#menutoggle {
+    display: block;
+    position: relative;
+    top: 20px;
+    right: -330px;
+    z-index: 3;
+}
+
+#menutoggle a {
+    text-decoration: none;
+    color: black;
+    transition: color .3s ease;
+}
+
+#menutoggle a:hover {
+    color: #9933cc;
+    text-decoration: underline;
+}
+
+#menutoggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    z-index: 2;
+    opacity: 0;
+}
+
+#menutoggle span {
+    display: block;
+    width: 33px;
+    height: 6px;
+    margin-bottom: 6px;
+    position: relative;
+    background-color: white;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform .5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background .5s cubic-bezier(.23, .67, 1, .74), opasity 0.5s ease;
+}
+
+#menutoggle span:first-child {
+    transform-origin: 0%, 0%;
+}
+
+#menutoggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+}
+
+#menutoggle input:checked~span {
+    opacity: 1;
+    transform: rotate(45deg) translate(3px, 3px);
+    background: #9933cc;
+}
+
+#menutoggle input:checked~span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(.2, .2);
+}
+
+#menutoggle input:checked~span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 50px;
+    right: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    background-color: #fff;
+    padding: 50px;
+    padding-top: 125px;
+    transform-origin: 0%, 0%;
+    transform: translate(75%, 0%);
+    transition: transform .5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+#menu li {
+    font-size: 22px;
+    padding: 10px 0px;
+}
+
+#menutoggle input:checked~ul {
+    transform: none;
+}

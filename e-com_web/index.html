@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Wear</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+
+    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/menu_button.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+    <!--script--------->
+    <script type="text/javascript">
+        $(document).on('click', '.user', function() {
+            $('.form').addClass('.login-active')
+        });
+
+        $(document).ready(function() {
+            $('.bxslider').bxSlider({
+                auto: true,
+                pager: true,
+                speed: 2000,
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <!---navigation------------>
+    <nav>
+        <!---social-link-phone----------->
+        <div class="social-call">
+            <!--social-link------------>
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <!----phone-num-------->
+            <div class="phone">
+                <span>Call +6612345678</span>
+            </div>
+        </div>
+        <!--menu-bar------------->
+        <div class="navigation">
+
+            <a href="index.html" class="logo">
+                <div><img src="images/logo.png" width="200px" height="auto"></div>
+            </a>
+            <!--search-bar------------->
+            <div class="search-bar">
+                <!--search-input---------->
+                <div class="search-input">
+                    <input type="text" placeholder="Search for product,promo" /> </div>
+                <!-- cancel-btn -->
+                <a href="#" class="search-icon">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div>
+
+            <!--menu----------->
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Promo</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Coupon</a></li>
+                <li><a href="#">Contract us</a></li>
+            </ul>
+            <!---right-menu------------->
+            <div class="right-menu">
+                <!--user------------>
+                <a href="#" class="user">
+                    <i class="far fa-user-alt"></i>
+                </a>
+                <!--cart------------>
+                <a href="#"><i class="fas fa-shopping-bag">
+                <!--num-of-product-in-cart---------->
+                <span class="num-cart-product">0</span>
+                </i>
+                </a>
+            </div>
+        </div>
+
+        </div>
+    </nav>
+    <div class="banner">
+        <ul class="bxslider">
+            <li>
+                <div class="banner-pic">
+                    <img src="images/banner.jpg" width="1100px">
+                </div>
+                <div class="banner-text">
+                    <h1 class="head-text">สัมผัสการออกกำลังกายที่ดีขึ้น</h1>
+                    <p class="info-text">พร้อมมอบประสบการณ์สุดพิเศษให้แก่คุณอย่างที่ไม่เคยสัมผัสมาก่อน
+                        <br>จากรองเท้าต้นแบบสู่การตอบโจทย์ของการออกกำลังกาย<br> ในสมัยใหม่ซึ่งเราเหมาะสมที่สุด!!!
+                    </p>
+                </div>
+            </li>
+
+            <!-- <li>
+                <div class="banner-pic">
+                    <img src="/images/banner.jpg" width="1100px">
+                </div>
+                <div class="banner-text">
+                    <h1 class="head-text">สัมผัสการออกกำลังกายที่ดีขึ้น</h1>
+                    <p class="info-text">พร้อมมอบประสบการณ์สุดพิเศษให้แก่คุณอย่างที่ไม่เคยสัมผัสมาก่อน
+                        <br>จากรองเท้าต้นแบบสู่การตอบโจทย์ของการออกกำลังกาย<br> ในสมัยใหม่ซึ่งเราเหมาะสมที่สุด!!!
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="banner-pic">
+                    <img src="/images/banner.jpg" width="1100px">
+                </div>
+                <div class="banner-text">
+                    <h1 class="head-text">สัมผัสการออกกำลังกายที่ดีขึ้น</h1>
+                    <p class="info-text">พร้อมมอบประสบการณ์สุดพิเศษให้แก่คุณอย่างที่ไม่เคยสัมผัสมาก่อน
+                        <br>จากรองเท้าต้นแบบสู่การตอบโจทย์ของการออกกำลังกาย<br> ในสมัยใหม่ซึ่งเราเหมาะสมที่สุด!!!
+                    </p>
+                </div>
+            </li> -->
+        </ul>
+        <div class="slide">
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-right"></i>
+        </div>
+    </div>
+
+    <div id="box-button">
+        <div class="button current"></div>
+        <div class="button"></div>
+        <div class="button"></div>
+        <div class="button"></div>
+    </div>
+    <div id="promo">
+        <h1>Promotion</h1>
+        <button class="load-btn">Load More</button>
+        <div class="content">
+            <img src="images/pr1.jpg" width="500px">
+            <img src="images/pr2.jpg" width="500px">
+            <img src="images/pr3.jpg" width="500px">
+        </div>
+    </div>
+    <div id="product">
+        <h1>Product</h1>
+        <select name="genders" id="genders">
+            <option value="men">Men</option>
+            <option value="women">Women</option>
+          </select>
+        <div class="pr-content">
+            <img src="images/pd1.jpg" width="370px">
+            <img src="images/pd2.jpg" width="370px">
+            <img src="images/pd3.jpg" width="370px">
+            <img src="images/pd4.jpg" width="370px">
+        </div>
+    </div>
+
+    <div id="best-sale">
+        <h1>Best Saler</h1>
+        <div class="bs-content">
+            <img src="images/sh1.jpg" width="500px">
+            <img src="images/sh2.jpg" width="500px">
+            <img src="images/sh3.jpg" width="500px">
+        </div>
+        <div class="slide1">
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-right"></i>
+        </div>
+        <div class="slide2">
+            <img src="images/cap.jpg" width="300px">
+            <img src="images/sh4.jpg" width="300px">
+            <img src="images/sh5.jpg" width="300px">
+            <img src="images/sh6.jpg" width="300px">
+            <img src="images/sh7.jpg" width="300px">
+        </div>
+    </div>
+    <footer>
+        <div class="content-left">
+            <div class="text1">
+                <h1>ช่วยเหลือ และ ข้อมูล</h1>
+                <a href="#" class="footer-text">วิธีสั่งซื้อสินค้า</a>
+                <a href="#" class="footer-text">คำแนะนำไซส์สินค้า</a>
+                <a href="#" class="footer-text">การจัดส่งสินค้าและการคืนสินค้า</a>
+                <a href="#" class="footer-text">ข้อมูลส่วนตัว</a> <a href="#" class="footer-text">ตรวจสอบสถานะสินค้า</a>
+                <a href="#" class="footer-text">วิธีการชำระเงิน</a>
+            </div>
+            <div class="text2">
+                <h1>เกี่ยวกับเรา</h1>
+                <a href="#" class="footer-text">ข้อตกลงและเงื่อนไข</a>
+                <a href="#" class="footer-text">นโยบายความเป็นส่วนตัว</a>
+                <a href="#" class="footer-text">คำถามที่พบบ่อย</a>
+                <a href="#" class="footer-text">ร่วมงานกับเรา</a>
+                <a href="#" class="footer-text">ติดต่อเรา</a>
+            </div>
+        </div>
+        <!-- content-left -->
+        <div class="content-right">
+            <h2>รับข่าวสาร</h2>
+            <p>สมัครฟรี เพื่อรับข้อมูลข่าวสารและ<br>โปรโมชั่นสุดพิเศษก่อนใคร</p>
+            <div class="sub">
+                <!--search-input---------->
+                <div class="sub-input">
+                    <input type="text" placeholder="Email" /> </div>
+                <!-- cancel-btn -->
+                <a href="#" class="mail-icon">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <h3>©Copyright 2021, Sportwear. All Rights Reserved.</h3>
+
+        </div>
+        <!-- content-right -->
+
+    </footer>
+
+    <!--login-&-signup-form---------->
+    <!-- <div class="form">
+        <--login-->
+    <div class="login">
+        <!--cancel-btn-------------->
+        <a href="#" class="form-cc">
+            <i class="fas fa-times"></i>
+        </a>
+        <strong>Log In</strong>
+        <form>
+            <input type="email" placeholder="Example@gmail.com" name="email">
+            <input type="pasword" placeholder="Password" name="password">
+            <!--submit-bt----->
+            <input type="submit" value="Log In">
+        </form>
+        <!-- forget-and-signup -------->
+        <div class="form-btn">
+            <a href="#" class="forget">Forget Your Password?</a>
+            <a href="#" class="signup-btn">Create Account</a>
+        </div>
+    </div>
+
+    <!--signup-->
+    <div class="signup">
+        <!--cancel-btn--------------->
+        <a href="#" class="form-cc">
+            <i class="fas fa-times"></i>
+        </a>
+        <strong>Sign Up</strong>
+        <form>
+            <input type="text" placeholder="Full Name" name="fullname">
+            <input type="email" placeholder="Example@gmail.com" name="email">
+            <input type="pasword" placeholder="Password" name="password">
+            <!--submit-bt----->
+            <input type="submit" value="Sign Up">
+        </form>
+        <!-- forget-and-signup -------->
+        <div class="form-btn">
+            <a href="#" class="forget">Already Have Account?</a>
+        </div>
+    </div>
+    </div>
+
+
+</body>
+
+</html>

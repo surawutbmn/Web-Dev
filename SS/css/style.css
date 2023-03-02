@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+#head {
+    position: absolute;
+    width: 100%;
+    margin-top: -820px;
+}
+
+.content {
+    width: 100%;
+    /* background: red; */
+}
+
+.logo {
+    margin: 30px 0px 0px 80px;
+    float: left;
+}
+
+#linklist {
+    list-style: none;
+    margin: 30px 50px 0px 195px;
+    float: right;
+}
+
+#linklist a {
+    text-decoration: none;
+    color: #707070;
+    padding-left: 35px;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+#linklist a i {
+    color: #E2C186;
+}
+
+#linklist a:hover {
+    text-decoration: underline solid #fff;
+}
+
+.product {
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+    position: relative;
+}
+
+.product2 {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    position: relative;
+}
+
+.pr-detail {
+    width: 50%;
+    margin-top: 10px;
+    margin-right: 110px;
+    font-size: 19px;
+}
+
+.buy-btn {
+    background-color: #E2C186;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 325px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.pr-l {
+    font-weight: lighter;
+}
+
+.pr-h2 {
+    font-size: 49px;
+}
+
+.pr-header h2 {
+    font-size: 42px;
+}
+
+.pr-detail h2 {
+    font-size: 40px;
+}
+
+.pr-detail h3 {
+    font-size: 32px;
+}
+
+.seemore {
+    color: #E2C186;
+}
+
+.pr-img {
+    width: 440px;
+    margin-top: -450px;
+    float: right;
+}
+
+.pr-img2 {
+    width: 440px;
+    margin-top: -300px;
+    float: right;
+}
+
+.thumb {
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.thumb-img {
+    padding: 10px;
+}
+
+.fluid-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    height: 215px;
+    background-color: #FFF4E2;
+    float: left;
+}
+
+.logo-box a {
+    margin-left: 120px;
+}
+
+.logo {
+    margin-top: 25px;
+    width: 350px;
+}
+
+.about {
+    list-style: none;
+    margin-top: 20px;
+    float: left;
+}
+
+.about h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    margin-left: 60px;
+}
+
+.about a {
+    color: #000;
+    text-decoration: none;
+    line-height: 1.4;
+    margin-left: 60px;
+    font-weight: 300;
+}
+
+.qs {
+    list-style: none;
+    margin-top: 20px;
+    float: left;
+}
+
+.qs h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+.qs a {
+    color: #000;
+    text-decoration: none;
+    line-height: 1.4;
+    margin-left: 50px;
+    font-weight: 300;
+    margin-right: 25px;
+}
+
+.icon {
+    margin: 20px 0 20px 20px;
+    font-size: 40px;
+}
+
+#searchfooter {
+    margin-right: 200px;
+    float: right;
+    margin-top: -40px;
+}
+
+#search {
+    width: 220px;
+    height: 25px;
+    background-color: #fff;
+    border: none;
+    padding-left: 10px;
+    float: right;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+}
+
+.search-footer h2 {
+    font-weight: 300;
+    float: right;
+    font-size: 20px;
+    margin-right: 180px;
+}
+
+.submit {
+    height: 25px;
+    border: none;
+    float: right;
+    margin-right: -250px;
+    cursor: pointer;
+}
+
+footer hr {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 20px;
+    clear: both;
+    border: #707070 solid 1px;
+    margin-top: 40px;
+}
+
+footer h5 {
+    font-weight: 300;
+    clear: both;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.fa-facebook-f {
+    cursor: pointer;
+    color: rgba(0, 86, 245, 0.938);
+}
+
+.fa-twitter {
+    cursor: pointer;
+    color: aqua;
+}
+
+.fa-line {
+    color: rgb(9, 255, 0);
+    cursor: pointer;
+}
+
+.fa-instagram {
+    cursor: pointer;
+    color: pink;
+}
+
+@media screen and (max-width: 400px) {
+    .container .col-lg-4 {
+        width: 50%;
+        float: left;
+        padding: 0 5px;
+    }
+    .pr-img {
+        width: 60%;
+        margin-top: -350px;
+    }
+    .pr-img2 {
+        width: 80%;
+        margin: 10%;
+        margin-left: 50px;
+    }
+    .pr-detail p,
+    .pr-detail span {
+        font-size: 12px;
+    }
+    .pr-header2 {
+        font-size: 20px;
+    }
+}
